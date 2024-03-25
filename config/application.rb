@@ -20,3 +20,9 @@ module WebpackerSample
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
+
+module ActiveJobExample
+  class Application < Rails::Application
+    config.active_job.queue_adapter = :sidekiq
+  end
+end
