@@ -1,0 +1,12 @@
+<div id="<%= dom_id member %>">
+  <p>
+    <strong>Name:</strong>
+    <%= member.name %>
+  </p>
+
+  <p>
+    <strong>Portrait:</strong>
+    <%= link_to member.portrait.filename, member.portrait if member.portrait.attached? %>
+  </p>
+
+</div>
