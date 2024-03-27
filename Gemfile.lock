@@ -264,7 +264,7 @@ DEPENDENCIES
   capybara
   debug
   image_magick
-  image_processing
+  image_processing (~> 1.2)
   importmap-rails
   jbuilder
   puma (~> 5.0)
